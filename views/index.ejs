@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('head')  %> 
+<body class="text-center">
+    <br>
+    <div style="width: 50%;" class="mx-auto text-center">
+    <form action="/add" method="post">
+    <input class="form control" type="text" name="todo" id=""><br><br>
+    <button class="btn btn-info btn-lg">Add</button>
+    </form>
+    </div>
+    <% for(var a=0; a<target.length; a++){ %> 
+        <div>
+<%= target[a].Todo  %> 
+</div>
+<% } %> 
+</body>
+</html>

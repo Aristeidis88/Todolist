@@ -1,0 +1,18 @@
+{
+  "name": "25.2.2021",
+  "version": "1.0.0",
+  "description": "aris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npm run start",
+    "heroku-postbuild":"NPM_PRODUCTION-false npm install"
+  },
+  "author": "aris",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "mongodb": "^3.6.4"
+  }
+}
