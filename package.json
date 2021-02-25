@@ -1,21 +1,21 @@
 {
-  "name": "25.2.2021",
+  "name": "todolist",
   "version": "1.0.0",
-  "description": "aris",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "npm run start",
-    "heroku-postbuild":"NPM_PRODUCTION-false npm install"
-  },
-  "author": "aris",
-  "license": "ISC",
+  "description": "",
+  "main": "server.js",
   "dependencies": {
     "ejs": "^3.1.6",
-    "mongodb": "^3.6.4",
-  
     "express": "^4.17.1",
     "mongoose": "^5.11.18",
-    "node": "^15.8.0"}
+    "node": "^15.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js", 
+    "dev": "npm run start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
+  },
+  "author": "",
+  "license": "ISC"
 }
